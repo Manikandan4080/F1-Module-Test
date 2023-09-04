@@ -1,0 +1,334 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* gradient 337eed  9632ed */
+}
+nav{
+    width: 100%;
+    padding: 5px;
+}
+.accio-logo{
+    width: 20%;
+}
+.accio-logo>img{
+    width: 200px;
+    height: auto;
+    object-fit: fill;
+}
+.nav-links{
+    width: 40%;
+}
+.nav-links>ul{
+    width: 100%;
+}
+li>a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+}
+.login-btn{
+    width: 12%;
+}
+
+.blue-bar{
+    width: 100vw;
+    background-color: #2f80ed;
+    color: white;
+}
+
+
+.box>p{
+    font-size: 10px;
+}
+.accio-carrer-signin{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 15px;
+    gap: 1rem;
+}
+.accio-carrer{
+    width: 50%;
+}
+.banner{
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 0px 0px 10px #4278c0;
+}
+.box{
+    gap: .3rem;
+}
+.signin-section{
+    width: 30%;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #4278c0;
+}
+.input-form{
+    width: 80%;
+}
+.inp{
+    background-color: whitesmoke;
+    margin-bottom: 15px;
+}
+.inp>input{
+    width: 80%;
+    background-color: transparent;
+    border: none;
+}
+.apply-btn{
+    width: 80%;
+    margin-bottom: 20px;
+    color: whitesmoke !important;
+    background: linear-gradient(to bottom right, #337eed, #9632ed);
+}
+.made-section{
+    border: none;
+    padding: 5px;
+    height: 30px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px #4278c0;
+}
+
+
+
+.course-packs{
+    width: 100%;
+    background-color: #ecf8ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.gradient-text{
+  background: -webkit-linear-gradient(#337eed, #9632ed);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.pack-section{
+    padding: 20px;
+    width: 80%;
+    gap: 1rem;
+    justify-content: space-between;
+}
+.course-card{
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.course-card:hover{
+    border: 1px solid #2f80ed;
+    box-shadow: 0px 0px 5px #6298e0;
+}
+.top-section{
+    width: 80%;
+    height: auto;
+}
+.top-text{
+    width: 300px;
+    background-color: #2f80ed;
+    color: white;
+    text-align: center;
+    border-radius: 3px;
+    position: absolute;
+    top: -.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+.beginner-card{
+    border: 1px solid #2f80ed;
+}
+.top-section>h3, .top-section>div>p{
+    text-align: center;
+}
+.top-section>div{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.top-section>div>p{
+    padding: 3px;
+    border-radius: 5px;
+    background-color: #ecf8ff;
+}
+.first-data{
+    width: 40%;
+}
+tr>td{
+    padding: 8px;
+    font-size: 12px;
+    border-bottom: 1px solid rgb(218, 212, 212);
+}
+.card-btns{
+    margin-top: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+.companies-section{
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.company-text>h3, .company-text>p{
+    text-align: center;
+}
+.companies-list{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.companies-list>img{
+    width: 10%;
+    height: auto;
+}
+.companies{
+    width: 100%;
+
+}
+
+
+.wall-of-love{
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fame-text>h2, .fame-text>p{
+    text-align: center;
+}
+.testimonial{
+    width: 95%;
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: .2rem;
+}
+.box-1{
+    padding: 5px;
+    width: 30%;
+    height: fit-content;
+    display: flex;
+    margin: 0px 20px 20px 0px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgb(143, 143, 143);
+}
+.name-role{
+    width: 100%;
+    justify-content: space-evenly;
+}
+.person>h5, .person>p{
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    nav>.nav-links{
+        display: none !important;
+    }
+    .login-btn{
+        width: 35%;
+    }
+    .accio-carrer-signin{
+        flex-direction: column !important;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .accio-carrer{
+        width: 90%;
+    }
+    .signin-section{
+        width: 85%;
+    }
+    .pack-section{
+        flex-direction: column;
+        width: 95%;
+    }
+    .course-card{
+        width: 100%;
+    }
+    .testimonial{
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
+    }
+    .box-1{
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 850px){
+    .accio-logo{
+        width: 10%;
+    }
+    nav>.nav-links{
+        display: none !important;
+    }
+    .login-btn{
+        width: 35%;
+    }
+    .accio-carrer-signin{
+        flex-direction: column !important;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .accio-carrer{
+        width: 75%;
+    }
+    .signin-section{
+        width: 65%;
+    }
+    .pack-section{
+        width: 100%;
+    }
+    .course-card{
+        width: 100%;
+    }
+    .box-1{
+        width: 80%;
+    }
+}
